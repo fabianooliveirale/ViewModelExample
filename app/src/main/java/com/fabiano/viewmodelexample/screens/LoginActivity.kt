@@ -41,6 +41,7 @@ class LoginActivity : AppCompatActivity(), RequestInterface {
     }
 
     override fun success() {
+        finish()
         initActivity(MainActivity())
     }
 
